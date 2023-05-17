@@ -13,3 +13,5 @@ class TestTV:
     def run(self):
         #To turn on the tv1
         self.tv1.turnOn()
+        #Setting the channel of tv1 to 30
+        self.tv1.setChannel(30)
