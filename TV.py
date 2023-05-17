@@ -5,3 +5,5 @@ class TV:
         self.channel = 1
         self.volumeLevel = 1
         self.on = False
+
+    #Constructs a default TV object
