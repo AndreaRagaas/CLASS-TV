@@ -7,3 +7,6 @@ class TV:
         self.on = False
 
     #Constructs a default TV object
+    #Turn on this TV
+    def turnOn(self):
+        self.on = True
