@@ -17,3 +17,6 @@ class TestTV:
         self.tv1.setChannel(30)
         #Setting the volume level of tv1 to 3
         self.tv1.setVolume(3)
+
+        #To turn on the tv2
+        self.tv2.turnOn()
