@@ -23,3 +23,7 @@ class TV:
     #Gets the volume level for this TV
     def getVolume(self):
         return self.volumeLevel
+    #Sets a new volume level for this TV
+    def setVolume(self, volumeLevel):
+        if self.on and 1 <= volumeLevel <= 7:
+            self.volumeLevel = volumeLevel
