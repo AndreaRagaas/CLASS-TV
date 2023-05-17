@@ -31,3 +31,7 @@ class TestTV:
         message = f"tv1's channel is {self.tv1.getChannel()} and volume level is {self.tv1.getVolume()}\n"
         message += f"tv2's channel is {self.tv2.getChannel()} and volume level is {self.tv2.getVolume()}"
         messagebox.showinfo("TV Information", message)
+
+#Create an instance of TestTV and run the test
+test = TestTV()
+test.run()
