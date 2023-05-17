@@ -9,3 +9,5 @@ class TestTV:
         self.tv1 = TV()
         #the second TV
         self.tv2 = TV()
+    #Defining the method to run the TV
+    def run(self):
