@@ -1,5 +1,7 @@
 #Import the TV class from the TV module
 from TV import TV
+#Importing a messagebox for the output
+from tkinter import messagebox
 
 #Create a new class named TestTV
 class TestTV:
