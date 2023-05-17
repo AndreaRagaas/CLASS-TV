@@ -11,3 +11,5 @@ class TestTV:
         self.tv2 = TV()
     #Defining the method to run the TV
     def run(self):
+        #To turn on the tv1
+        self.tv1.turnOn()
