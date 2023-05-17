@@ -16,3 +16,7 @@ class TV:
     #Returns the channel for this TV
     def getChannel(self):
         return self.channel
+    #Set a new channel level for this TV
+    def setChannel(self, channel):
+        if self.on and 1 <= channel <= 120:
+            self.channel = channel
