@@ -13,3 +13,6 @@ class TV:
     #Turn off this TV
     def turnOff(self):
         self.on = False
+    #Returns the channel for this TV
+    def getChannel(self):
+        return self.channel
