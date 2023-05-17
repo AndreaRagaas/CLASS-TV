@@ -1,3 +1,8 @@
+#2022-09805-MN-0
+#RAGAAS, ANDREA 
+#BSCPE 1-5
+#Introduction to Object-Oriented Programming (Class-Object)
+
 #Import the TV class from the TV module
 from TV import TV
 #Importing a messagebox for the output
