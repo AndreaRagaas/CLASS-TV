@@ -26,3 +26,8 @@ class TestTV:
         self.tv2.setChannel(3)
         #Setting the volume level of tv2 to 2
         self.tv2.setVolume(2)
+
+    #The outputs printed in a messagebox stating the channel and volume level of tv1 and tv2
+        message = f"tv1's channel is {self.tv1.getChannel()} and volume level is {self.tv1.getVolume()}\n"
+        message += f"tv2's channel is {self.tv2.getChannel()} and volume level is {self.tv2.getVolume()}"
+        messagebox.showinfo("TV Information", message)
